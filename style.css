@@ -353,7 +353,7 @@
   font-weight: 700;
   line-height: 1.36;
   margin: 0;
-  color: var(--color-unit-section);
+  color: white;
   font-family: din-round, sans-serif;
   font-size: 25px;
   font-style: normal;
@@ -362,6 +362,9 @@
   font-variant-ligatures: normal;
   font-variant-numeric: normal;
   font-weight: 700;
+}
+#under-sec1-top span {
+  color: white;
 }
 
 div {
@@ -376,6 +379,9 @@ img {
 #header-title {
   font-size: 2em;
 }
+/* #sidebar-left {
+  background-color: #263393;
+} */
 
 main {
   display: flex;
@@ -516,7 +522,7 @@ div nav ul li a {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 1.25em;
-  color: #c85c5c;
+  color: black;
 }
 
 nav {
@@ -563,7 +569,7 @@ ul li a {
 
 ul li a:hover {
   border-style: solid;
-  background-color: #fffda2;
+  background-color: #f4d224;
   border-color: #baffb4;
 }
 
@@ -591,6 +597,7 @@ ul li a:hover {
   padding-top: 0.25em;
   top: 0;
   z-index: 100;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 #sec1 #sec1-top {
