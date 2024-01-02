@@ -8,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // Buat fungsi untuk mengecek posisi elemen saat menggulir
   function checkSticky() {
     // Jika posisi elemen kurang dari atau sama dengan 0, tambahkan kelas sticky
-    if (window.scrollY >= stickyPos) {
-      sticky.classList.add("sticky-sec1-top");
+    if (window.scrollY <= stickyPos) {
+      sticky.classList.remove("sticky-sec1-top");
       // Jika tidak, hapus kelas sticky
     } else {
-      sticky.classList.remove("sticky-sec1-top");
+      sticky.classList.add("sticky-sec1-top");
     }
   }
 
